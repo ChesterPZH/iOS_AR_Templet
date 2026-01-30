@@ -7,7 +7,8 @@ https://www.youtube.com/watch?v=zoM2F_kCsGM
 我在develop的过程中有一个stage就是visualize 6个 marker 的 3D pose，如下图所示。以回到渲染这个可视化阶段为目标。
 ![demo](demo.jpg) 
 
-
+以下是`maintrakcing.swift`的主体部分，也就是管理整体渲染runtime的file。I believe `VisualContent.shared.drawAxesForMarkers` 就是draw上述axis的funtion。因此我们只需要找一个render功能，可以清除所有和绘画，apple pencil管理的files。
+I believe`ContentView.swift`, `Math.swift`, `PencilManager.swift`, `StrokeManager.swift`, `VirtualPencilModel.swift`, `VisualContent.swift` 都有需要删减的内容
 ```swift
             // Calculate average tip position
             let avgMatrix = VirtualPencilModel.shared.calculateAverageTip(markerInfos: markerInfos)
