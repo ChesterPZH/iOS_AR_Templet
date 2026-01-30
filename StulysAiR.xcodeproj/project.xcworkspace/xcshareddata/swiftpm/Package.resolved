@@ -1,0 +1,15 @@
+{
+  "originHash" : "eb96326a6e463132a9cc861bd2bcef5fbcc45a5266a3d36d44725fd9f3353b0b",
+  "pins" : [
+    {
+      "identity" : "opencv",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/r0ml/OpenCV.git",
+      "state" : {
+        "revision" : "a0847cb3190b4af859a9431f9251140f1b9238a4",
+        "version" : "4.10.2"
+      }
+    }
+  ],
+  "version" : 3
+}
